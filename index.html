@@ -1177,10 +1177,21 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 500;
-            color: var(--text-tertiary);
+  
             margin-top: 40px;
+            color: transparent;
+            background: linear-gradient(135deg, 
+                #F96302 0%, 
+                #ff8534 25%,
+                #5E5CE6 50%,
+                #00A0B0 75%,
+                #F96302 100%);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             animation: pulse 2s ease-in-out infinite;
         }
 
@@ -1344,7 +1355,7 @@
                 Over the past year, the Advanced Analytics team delivered measurable impact across six strategic initiatives: AB Testing Automation, Anomaly Detection, Incrementality Framework, GenAI Assistant, RTB Automation, and OKR Tracking. From streamlining experimentation workflows to deploying AI-powered insights, this roadmap captures the milestones, recognitions, and innovations driving operational excellence.
             </p>
             <div class="landing-cta">
-                <span>Click to explore</span>
+                <span>click to explore</span>
                 
             </div>
         </div>
@@ -1640,6 +1651,9 @@
                                     <div class="tooltip-task">OKR Tracking</div>
                                 </div>
                                 <div class="tooltip-title">OKR Tracking Dashboard</div>
+                                    <div class="tooltip-callout">Automated Reports</div>
+                                    <div class="tooltip-callout">Reporting Dashboard</div>
+                                    <div class="tooltip-callout">Automated Email Sends</div>
                                 <div class="tooltip-meta">
                                     <span class="tooltip-umbrella">Advanced Analytics (Kishen)</span>
                                     <span class="tooltip-evolution">Operational Visibility</span>
@@ -2141,4 +2155,5 @@
     </script>
 </body>
 </html>
+
 
